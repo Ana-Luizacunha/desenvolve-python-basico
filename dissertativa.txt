@@ -1,0 +1,22 @@
+Truque da Tabuada do 9
+
+Descrição:
+O objetivo é calcular o resultado de 9 × n.
+
+Para isso fazemos o passo a passo:
+
+Entrada: Ler o valor de n (número inteiro e positivo entre 1 e 10).
+
+O processamento:
+Calcular a dezena como n - 1.
+Calcular a unidade como 10 - n.
+Multiplicar a dezena por 10 e somar com a unidade:
+resultado = (n−1) × 10 + (10−n)
+Saída: Mostrar o valor final de resultado.
+
+Exemplo:
+Se n = 7:
+Dezena = 6 - 1 = 5
+Unidade = 10 - 6 = 4
+Resultado = (5 × 10) + 4 = 54
+Saída: "9 × 6 = 54"
